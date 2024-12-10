@@ -1,0 +1,45 @@
+{
+  "npm": {
+    "publishArgs": ["--provenance"],
+    "skipChecks": true
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}"
+  },
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "requireCleanWorkingDir": true,
+    "tagAnnotation": "Release v${version}",
+    "tagName": "v${version}"
+  },
+  "hooks": {
+    "after:bump": "echo Release success",
+    "after:git:release": "if [ \"${isPreRelease}\" != \"true\" ]; then git tag -f latest && git push -f origin latest; fi"
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "ignoreRecommendedBump": true,
+      "strictSemVer": true,
+      "preset": {
+        "name": "conventionalcommits",
+        "header": "# Changelog",
+        "types": [
+          { "type": "feat", "section": "✨ Features" },
+          { "type": "fix", "section": "🐛 Bug Fixes" },
+          { "type": "chore", "section": "🎫 Chores" },
+          { "type": "docs", "section": "📝 Documentation" },
+          { "type": "style", "section": "💄 Styles" },
+          { "type": "refactor", "section": "♻ Code Refactoring" },
+          { "type": "perf", "section": "⚡ Performance Improvements" },
+          { "type": "test", "section": "✅ Tests" },
+          { "type": "revert", "section": "⏪ Reverts" },
+          { "type": "build", "section": "👷‍ Build System" },
+          { "type": "ci", "section": "🔧 Continuous Integration" },
+          { "type": "config", "section": "🔨 CONFIG" }
+        ]
+      }
+    }
+  }
+}
