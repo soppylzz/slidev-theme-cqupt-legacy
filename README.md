@@ -165,4 +165,4 @@ public/      # badges, logos, background images, and other static assets
 
 ## License
 
-[MIT](LICENSE) © 2024 [Soppy_Lzz](https://github.com/soppylzz)
+[MIT](LICENSE) © 2024 [soppylzz](https://github.com/soppylzz)

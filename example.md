@@ -61,7 +61,7 @@ layout: s-cols
 
 ::col_2::
 
-<s-image src="./public/images/figure.1.png" intro="figure 1. 论文" align="center"/>
+<s-image src="/slidev-theme-cqupt-legacy/images/figure.1.png" intro="figure 1. 论文" align="center"/>
 
 ---
 section: 系统模型
@@ -85,7 +85,7 @@ layout: s-cols
 
 
 
-<s-image src="./public/images/figure.2.png" intro="figure 2. 系统模型" align="center"/>
+<s-image src="/slidev-theme-cqupt-legacy/images/figure.2.png" intro="figure 2. 系统模型" align="center"/>
 
 
 
@@ -197,7 +197,7 @@ layout: s-cols
 
 ::col_2::
 
-<s-image src="./public/images/figure.3.png" intro="figure 3. 原问题公式" align="center"/>
+<s-image src="/slidev-theme-cqupt-legacy/images/figure.3.png" intro="figure 3. 原问题公式" align="center"/>
 
 
 
@@ -220,7 +220,7 @@ layout: s-cols
 
 ::col_2::
 
-<s-image src="./public/images/figure.4.png" intro="figure 4. 等价问题公式" align="center"/>
+<s-image src="/slidev-theme-cqupt-legacy/images/figure.4.png" intro="figure 4. 等价问题公式" align="center"/>
 
 
 ---
@@ -322,7 +322,7 @@ layout: s-cols
 
 ::col_2::
 
-<s-image src="./public/images/figure.5.png" intro="figure 5. 实验结果" align="center"/>
+<s-image src="/slidev-theme-cqupt-legacy/images/figure.5.png" intro="figure 5. 实验结果" align="center"/>
 
 
 
