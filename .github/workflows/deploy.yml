@@ -27,7 +27,7 @@ jobs:
           npm add -g @slidev/cli
 
       - name: build
-        run: npm run build -- --base /slidev-theme-cqupt/
+        run: npm run build -- --base /slidev-theme-cqupt-legacy/
 
       - uses: actions/configure-pages@v4
 
